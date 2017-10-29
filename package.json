@@ -1,0 +1,22 @@
+{
+  "name": "weatger-api-task",
+  "version": "1.0.0",
+  "description": "Weater API",
+  "main": "app.js",
+  "scripts": {
+    "start": "node bin/weatger-api-task.js",
+    "dev": "node_modules/.bin/nodemon bin/weatger-api-task.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "csv-write-stream": "^2.0.0",
+    "moment": "^2.19.1",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
